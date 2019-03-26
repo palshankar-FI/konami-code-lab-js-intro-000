@@ -14,7 +14,7 @@ const codes = [
 var idx = 0;
 
 function init() {
-  
+
 }
 
 function onKeyDownHandler(e) {
@@ -24,7 +24,7 @@ function onKeyDownHandler(e) {
     if (idx === codes.length) {
        alert("Hurray");
        idx = 0;
-    }    
+    }
   }
   else {
     idx = 0;
