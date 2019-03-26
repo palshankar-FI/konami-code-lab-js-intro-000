@@ -14,7 +14,7 @@ const codes = [
 var idx = 0;
 
 function init() {
-
+  document.addEventListner('keydown', onKeyDownHandler);
 }
 
 function onKeyDownHandler(e) {
